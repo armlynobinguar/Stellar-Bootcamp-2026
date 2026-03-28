@@ -1,4 +1,4 @@
-# 🚀 Stellar Philippines UniTour — University of East Caloocan
+# 🚀 Stellar Philippines UniTour — University of East Caloocan .
 
 **Platform:** [Rise In](https://www.risein.com/programs/stellar-philippines-unitour-university-of-east-caloocan)  
 **Track:** Stellar Smart Contract Bootcamp  
