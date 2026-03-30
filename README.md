@@ -23,6 +23,14 @@ No prior Web3 experience needed—follow the steps below.
 5. **Submit** your Contract ID + GitHub repo on Rise In
 
 ---
+## Bootcamp Participant
+
+- Full Name: Mark Joseph B. Neypes
+- Profession: Student / BS Computer Science
+- Telegram Username: @jaedaaann
+- Facebook: https://facebook.com/mak.jowsep
+  
+---
 
 ## ✅ Step-by-Step Guide
 
