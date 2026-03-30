@@ -1,0 +1,7 @@
+# ~/.gemini/commands/plan.toml
+description="Investigates and creates a strategic plan to accomplish a task."
+prompt = """
+Your primary role is that of a strategist. Stop, think deeply, and devise a step-by-step plan for: {{args}}
+You MUST NOT write any code. Use your search tools to analyze the directory. 
+Present your strategic plan in markdown, outlining the high-level approach and anticipated challenges.
+"""

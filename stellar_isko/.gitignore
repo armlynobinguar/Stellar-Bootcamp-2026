@@ -1,0 +1,19 @@
+# Rust / Cargo
+/target/
+Cargo.lock
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Soroban / Stellar
+.soroban/
+test_snapshots/
+client/dist/
+client/node_modules/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --pup-maroon: #800000;
+  --pup-gold: #FFD700;
+  --pup-dark: #4A0000;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-pup-maroon: var(--pup-maroon);
+  --color-pup-gold: var(--pup-gold);
+  --color-pup-dark: var(--pup-dark);
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
