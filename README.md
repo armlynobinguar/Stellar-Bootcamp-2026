@@ -111,6 +111,32 @@ soroban contract deploy --wasm ... --source-account student --network testnet
 
 ---
 
+## Deployed contract (testnet)
+
+> ✅ Live on Stellar testnet — deployed 2026-03-30.
+
+| Field | Value |
+|-------|-------|
+| **Contract ID** | `CDKNMIS5XGMULBIH2SHX2XNZXOFLPVNBKPONCHIRJXQPX4AVIOJOWQYJ` |
+| **WASM hash** | `cd0b03985a406f24629fb4fe599b38132525512672549a26eea1f6397906076a` |
+| **WASM size** | 6,073 bytes |
+| **Deployer** | `GC3I3KC2JGYVMDDPQBNEHCY5EKQVEAH2DOAJJMKF2RI64ZJSZT3TFJGL` (`student`) |
+| **Upload tx** | [`da0b1acd…`](https://stellar.expert/explorer/testnet/tx/da0b1acdca7d07321fbf1408954181915a4eccdee3ec79d7b7ade8884ce57c54) |
+| **Deploy tx** | [`10ac9df9…`](https://stellar.expert/explorer/testnet/tx/10ac9df9cfd4873e63eb539fafe4fd353c8e12850b0c96c63eec6fd4730b355f) |
+| **Stellar Lab** | [View contract](https://lab.stellar.org/r/testnet/contract/CDKNMIS5XGMULBIH2SHX2XNZXOFLPVNBKPONCHIRJXQPX4AVIOJOWQYJ) |
+
+### Web app setup
+
+`web/.env` is already pre-filled with the contract ID above:
+
+```env
+VITE_CONTRACT_ID=CDKNMIS5XGMULBIH2SHX2XNZXOFLPVNBKPONCHIRJXQPX4AVIOJOWQYJ
+```
+
+Just run the frontend and connect Freighter on **testnet** — no manual deploy needed.
+
+---
+
 ## Sample CLI invocation (MVP)
 
 `init` must be signed by the **creator**; `creator` must match `--source-account`. Example using the same testnet identity for both:
