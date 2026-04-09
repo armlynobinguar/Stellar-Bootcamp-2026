@@ -198,7 +198,3 @@ The Stellar UniTour is a **multi-campus roadshow**: the same Stellar Smart Contr
 ---
 
 *Questions? Ask your facilitator during the session or reach out via the Rise In platform.*
-
-Full Name: Renzo M. Alpuerto  
-Course and Year: Bachelor of Science in Information Technology, 3rd Year  
-Telegram Username: @renzeuss
