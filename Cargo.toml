@@ -1,28 +1,23 @@
 [workspace]
 resolver = "2"
 members = [
-  "learning/hello-world",
-  "learning/rust-syntax",
-  "learning/variables-and-types",
-  "learning/conditionals-and-loops",
-  "learning/functions-and-errors",
-  "learning/state-storage",
-  "learning/events",
-  "learning/auth-and-admin",
-  "learning/maps-and-keys",
-  "learning/token-ledger-basics",
-  "learning/enums-and-matches",
-  "learning/structs-and-methods",
-  "learning/storage-ttl",
-  "soroban-examples/hello-soroban",
-  "soroban-examples/counter-storage",
-  "soroban-examples/auth-check",
-  "soroban-examples/events-demo",
-  "soroban-examples/simple-voting",
+  "contracts/*",
 ]
 
 [workspace.dependencies]
-soroban-sdk = "*"
+soroban-sdk = "25"
 
 [profile.release]
+opt-level = "z"
 overflow-checks = true
+debug = 0
+strip = "symbols"
+debug-assertions = false
+panic = "abort"
+codegen-units = 1
+lto = true
+
+# For more information about this profile see https://soroban.stellar.org/docs/basic-tutorials/logging#cargotoml-profile
+[profile.release-with-logs]
+inherits = "release"
+debug-assertions = true
