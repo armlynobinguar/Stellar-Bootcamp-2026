@@ -1,0 +1,3 @@
+- Full Name: Helena Herrero
+- Course and Year: BS Computer Science, 1st Year
+- Telegram Username: @helenaherrero515
